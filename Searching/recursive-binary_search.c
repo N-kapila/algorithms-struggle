@@ -17,5 +17,6 @@ int recBinarySearch(int arr[],int low,int high, int value){
 
 void main(){
     int arr[]={1,8,9};
+    printf("Value found position: ");
     printf("%d",recBinarySearch(arr,0,2,9));
 }
